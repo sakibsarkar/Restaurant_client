@@ -1,0 +1,82 @@
+nav {
+    background: rgba(21, 21, 21, 0.50);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 55px;
+}
+
+
+nav log {
+    display: flex;
+    justify-content: center;
+    align-items: self-start;
+    flex-direction: column;
+    width: fit-content;
+
+}
+
+nav .logo h1 {
+    color: #FFF;
+    font-family: Cinzel;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+nav .logo p {
+    color: #FFF;
+    font-family: Cinzel;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 9.12px;
+}
+
+
+.navLinks {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.navLinks .links {
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.navLinks .active {
+    color: #EEFF25;
+}
+
+.functionality {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.cart img {
+    width: 62px;
+}
+
+.user {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.user img {
+    width: 100%;
+    object-fit: cover;
+}
