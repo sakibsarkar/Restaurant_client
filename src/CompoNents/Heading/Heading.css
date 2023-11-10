@@ -1,0 +1,32 @@
+.headingCon {
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.headingCon p {
+    color: #D99904;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.headingCon h1 {
+    color: #151515;
+    font-family: Inter;
+    padding: 15px 65px;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-bottom: 3px solid #E8E8E8;
+    border-top: 3px solid #E8E8E8;
+}

@@ -4,6 +4,11 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 10px 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    width: 100%;
 }
 
 
@@ -35,6 +40,13 @@ nav .logo p {
     letter-spacing: 9.12px;
 }
 
+
+.navRightSide {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
 
 .navLinks {
     display: flex;

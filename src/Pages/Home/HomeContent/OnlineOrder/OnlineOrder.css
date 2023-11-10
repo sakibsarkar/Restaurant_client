@@ -1,0 +1,24 @@
+.sliderCard {
+    width: fit-content !important;
+    position: relative !important;
+}
+
+
+.sliderCard p {
+    color: #FFF;
+    font-family: Cinzel;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    z-index: 999;
+    bottom: 9px;
+    left: 30%;
+
+}
+
+
+.mySwiper {
+    width: 1320px !important;
+}
